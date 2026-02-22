@@ -12,7 +12,7 @@ vector<int> add(vector<int> &A, vector<int> &B){
         C.push_back(t % 10);
         t /= 10;
     }
-    if(t) C.push_back(1);
+    if(t) C.push_back(1);//注意进位
     return C;
     
 }
